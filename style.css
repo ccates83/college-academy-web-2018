@@ -1,3 +1,7 @@
 nav {
-	color:blue;
+	text-align: center;
+	color: blue;
+	border-color: red;
+	border-radius: 5px;
+	border-style: solid;
 }
