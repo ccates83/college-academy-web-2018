@@ -1,6 +1,7 @@
-
+// Draw the game onto the canvas
 var drawModule = (function () { 
 
+  // Create the body of the snake
   var bodySnake = function(x, y) {
         ctx.fillStyle = 'green';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
@@ -8,6 +9,7 @@ var drawModule = (function () {
         ctx.strokeRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
   }
 
+  // Create the food (pizza)
   var pizza = function(x, y) {
         ctx.fillStyle = 'yellow';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
