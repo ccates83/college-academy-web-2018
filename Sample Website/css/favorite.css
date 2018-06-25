@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: dodgerblue;
+}
+
+body{
+    background-color: burlywood;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+p{
+    color:forestgreen;
+    font-size: 20px;
+}
