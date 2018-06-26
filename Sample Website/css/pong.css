@@ -1,0 +1,13 @@
+#game-canvas {
+    float: right;
+}
+
+nav {
+    font-family: Arial;
+    font-size: 54;
+    color: skyblue;
+    background-color: lightgray;
+    border-bottom: solid;
+    border-bottom-color: red;
+    text-align: center;
+}
